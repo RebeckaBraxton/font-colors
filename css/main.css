@@ -1,0 +1,54 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+p {
+  color: #ff8641;
+}
+
+h1 {
+  color: #7b7d70;
+  font-size: 2em;
+}
+
+h2 {
+  color: #4eafb8;
+  font-size: 1.5em;
+}
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px) {
+	p {
+    color: #7b8f8e;
+  }
+
+  h1 {
+    color: #02cbd2;
+  }
+
+  h2 {
+    color: #fcc02a;
+  }
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px) {
+	p {
+    color: #c19e74;
+  }
+
+  h1 {
+    color: #6e4b61;
+  }
+
+  h2 {
+    color: #cabd61;
+  }
+}
